@@ -10,4 +10,4 @@ jobs:
       - name: my-step
         run: ci/build-app.sh
       - name: Test
-        run: chmod +x ci/unit-test-app.sh && ci/unit-test-app.sh
+        run: ci/unit-test-app.sh
